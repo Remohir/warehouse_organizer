@@ -1,18 +1,20 @@
 <html>
 <head>
 	<title>WAREHOUSE ORGANIZER</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
-	<div>
+	<div class="container">
 		<!-- Getting information from picking order -->
 		<form action=""where"" method="POST">
 			<!-- Picking order number -->
-			<input type="text" name="picking_order" placeholder="Picking Order">
+			<input class="field" type="text" name="picking_order" placeholder="Picking Order">
 			<!-- Customer name / reference -->
-			<input type="text" name="customer" placeholder="Customer">
+			<input class="field" type="text" name="customer" placeholder="Customer">
 			<!-- Submit button -->
-			<input type="submit" value="Start picking">
+			<input class="field" type="submit" value="Start picking">
 		</form>
 	</div>
 

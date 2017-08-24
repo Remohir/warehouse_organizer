@@ -1,29 +1,31 @@
 <html>
 <head>
 	<title>WAREHOUSE ORGANIZER</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
-	<div>
+	<div class="container">
 		<!--  -->
-		<div>
+		<div class="details">
 			<!-- Product details -->
-			<h2>Product's name</h2>
-			<h2>Product's batch</h2>
-			<h2>Product's expiry date</h2>
+			<h2 class="info">Product's name</h2>
+			<h2 class="info">Product's batch</h2>
+			<h2 class="info">Product's expiry date</h2>
 		</div>
 
-		<div>
+		<div class="details">
 			<!-- Quantity needed -->
-			<h3>Quantity needed</h3>
-			<input type="number" name="quantity">
+			<h3 class="info">Quantity needed</h3>
+			<input class="field" type="number" name="quantity">
 		</div>
 
-		<div>
+		<div class="details">
 			<!-- Accept quantity and go to products list -->
-			<button>Accept</button>
+			<input class="pick_field" type="submit" value="Accept">
 			<!-- Cancel quantity and go to the last screen -->
-			<button>Cancel</button>
+			<input class="pick_field" type="submit" value="Cancel">
 		</div>
 	</div>
 

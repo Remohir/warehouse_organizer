@@ -1,0 +1,116 @@
+body {
+	background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(orange, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(orange, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(orange, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(orange, grey); /* Standard syntax */
+}
+
+.container {
+	margin: 15% auto;
+}
+
+.field {
+	display: block;
+	position: relative;
+	width: 20%;
+	height: 3em;
+	margin: 2% auto 2% auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	font-size: 1.25em;
+}
+
+.menu {
+	position: relative;
+	margin: 2% auto;
+	text-align: center;
+	width: 34.1%;
+	border: 2px solid black;
+}
+
+.prod_field {
+	display: inline-block;
+	position: relative;
+	width: 32%;
+	height: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.prod_container {
+	margin: -2% auto 0 auto;
+}
+
+.products {
+	position: relative;
+	text-align: center;
+}
+
+.prod {
+	margin: 2% auto;
+	border: 2px solid black;
+	width: 34.1%;
+	list-style-type: none;
+	background: white;
+}
+
+.prod p {
+	margin: 5px;
+	font-weight: bold;
+}
+
+.details {
+	position: relative;
+	margin: 5px auto;
+	text-align: center;
+}
+
+.pick_field {
+	display: inline-block;
+	position: relative;
+	width: 10%;
+	height: 3em;
+	margin: 0.5% auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.info {
+	height: 1.5em;
+	margin: 2% auto;
+	width: 20%;
+	padding-top: 0.5em;
+	background: white;
+	text-align: center;
+}
+
+.details .field {
+	border: 2px solid black;
+	margin-bottom: 0;
+}
+
+input[type="radio"] {
+	display: inline-block;
+	font-size: 1em;
+}
+
+input[type="number"] {
+	display: block;
+	font-size: 1.5em;
+	height: 1.5em;
+	margin: 2% auto;
+	width: 20%;
+	padding-top: 0.5em;
+	text-align: center;
+	border: 2px solid black;
+}
+
+input[value="Accept"] {
+	margin: 0 auto;
+	font-size: 1.5em;
+	display: block;
+}
